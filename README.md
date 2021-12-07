@@ -8,22 +8,14 @@ To run the code, VC++ 9.0 is needed.
 ## Dependencies
 C2A depends on **PQP**.
 
-1. Please download PQP at [here](http://www.cs.unc.edu/%7Egeom/SSV/index.html). **PQP_v1.3** version is needed. 
+1. Please download PQP at [here](https://github.com/GammaUNC/PQP).
 
 
-2. Copy the PQP_v1.3 folder into root path of C2A.
+2. Copy the entire folder into new `PQP` directory in the root path.
 
 
-3. Copy the files PQP.sln and PQP.vcproj into PQP_v1.3 folder. 
+3. Copy the files PQP.sln and PQP.vcproj into PQP folder. 
 
-
-4. Comment the follow sentences in `PQP_Compile.h`
-```c++
-inline float sqrt(float x) { return (float)sqrt((double)x); }
-inline float cos(float x) { return (float)cos((double)x); }
-inline float sin(float x) { return (float)sin((double)x); }
-inline float fabs(float x) { return (float)fabs((double)x); }
-```
 
 ## About the project 
 
