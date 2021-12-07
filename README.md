@@ -11,7 +11,7 @@ C2A depends on **PQP**.
 1. Please download PQP at [here](https://github.com/GammaUNC/PQP).
 
 
-2. Copy the entire folder into new `PQP` directory in the root path.
+2. Copy all contents of PQP to a new folder named `PQP` in the root path.
 
 
 3. Copy the files PQP.sln and PQP.vcproj into PQP folder. 
