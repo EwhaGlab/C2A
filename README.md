@@ -27,7 +27,7 @@ Only the `release` mode is supported, if you need debug mode, please change as f
 
 In ProximityQuery.sln, two projects exist other than PQP:
 
-* **CCD_Demo**: the Demo fucntion for showing how to use C2A.lib.
+* **CCDDemo**: the Demo fucntion for showing how to use C2A.lib.
 
 * **C2A**: continous collision detection based on PQP soft package, and form C2A.lib
 The main functions are:
@@ -76,6 +76,12 @@ The main functions are:
  
  
 The result of C2A is saved in result folder under root path.
+
+
+## Demo
+
+To run the demo, you need [GLUT](https://www.opengl.org/resources/libraries/glut/) & [OpenGL](https://www.opengl.org/). Please make sure the **Startup project** is setup correctly to **CCDDemo**. 
+
 
 ## Citation
 C2A was presented in **ICRA 2009** and also publisehd in **TVCG 2014**. Please visit our [website](http://graphics.ewha.ac.kr/C2A/) for more details. To cite C2A in your academic research, please use the following bibtex lines:
